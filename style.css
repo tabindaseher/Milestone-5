@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #ece2ee;
+    padding: 20px;
+}
+#container{
+    background-color:#f4f4f4;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    
+    margin: 0 auto;
+    border: 3px solid purple;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2.8em;
+    color: rgb(83, 4, 83);
+}
+
+fieldset{
+ 
+    height: 350px;
+    border: 4px solid purple;
+    width: 250;
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+
+}
+label{
+    display: inline;
+    margin-bottom: 8px;
+    font-size: 1.7em;
+    color: rgb(0, 0,128);
+    margin-left: 20px;
+    
+}
+legend{
+    font-size: 2.0em;
+    font-style:normal;
+    margin-left: 20px;
+    color: black;
+}
+input{
+    width: 270px;
+    height: 21px;
+    display: block;
+    margin-left: 20px;
+    margin-left: 20px;
+   
+}
+textarea{
+    margin-top: 15px;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+  
+}
+#degree{
+    margin-bottom: 8px;
+}
+.all-skills{
+    height: 150px;
+}
+button{
+    border: 2px solid purple;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px;
+    background-color: #ece2ee;
+    font-size: 1em;
+    cursor:pointer;
+ 
+}
+button :hover{
+   color:blue;
+}
+ #generate-resume{
+    background-color:#f4f4f4;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    margin: 0 auto;
+    border: 3px solid purple;
+    /*making eeditable resume*/
+    outline: none;
+
+ }
+
+ #pdf{
+    border: 2px solid purple;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px;
+    background-color: #ac59bd;
+    font-size: 1.1em;
+    cursor:pointer;
+ }
+
+ #pdf :hover{
+    color:blue;
+ }
